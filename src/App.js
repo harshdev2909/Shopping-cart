@@ -32,6 +32,7 @@ function App() {
       {warrning && <div className='warning'>
         Item is already present in your cart
       </div> }
+      <cart/>
     </div>
   );
 }
