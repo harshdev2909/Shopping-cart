@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Navbar.css";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 const Navbar = ({size,setShow}) => {
   return (
     <nav>
         <div className='nav_box'>
             <span className='my_shop' onClick={()=> setShow(true)}>
-               cOde
+               Books.com
             </span>
             <div className='cart' onClick={()=> setShow(false)}>
                 <span>

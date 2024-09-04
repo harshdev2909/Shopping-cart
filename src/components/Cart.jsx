@@ -1,5 +1,5 @@
 import React, { cloneElement, useEffect, useState } from 'react';
-import './cart.css'
+import './Cart.css'
 
 const Cart = ({cart,setCart,handleChange}) => {
 
