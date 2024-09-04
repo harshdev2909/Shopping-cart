@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { cloneElement, useEffect, useState } from 'react';
 import './cart.css'
 
 const Cart = ({cart,setCart,handleChange}) => {
@@ -55,4 +55,4 @@ const Cart = ({cart,setCart,handleChange}) => {
   )
 }
 
-export default Cart
+export default Cart;
